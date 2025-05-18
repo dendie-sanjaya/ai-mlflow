@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1747503485772
+current_stage: None
+description: ''
+last_updated_timestamp: 1747503485772
+name: dendie-model
+run_id: 3eed74a7f1874bb69b93ebfa8a575d91
+run_link: ''
+source: file:///mnt/d/ai/ai-mlflow/mlruns/0/3eed74a7f1874bb69b93ebfa8a575d91/artifacts/logistic_regression_model
+status: READY
+status_message: null
+storage_location: file:///mnt/d/ai/ai-mlflow/mlruns/0/3eed74a7f1874bb69b93ebfa8a575d91/artifacts/logistic_regression_model
+user_id: null
+version: 1

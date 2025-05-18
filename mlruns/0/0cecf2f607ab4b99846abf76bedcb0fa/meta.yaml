@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/ai/ai-mlflow/mlruns/0/0cecf2f607ab4b99846abf76bedcb0fa/artifacts
+end_time: 1747503827370
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0cecf2f607ab4b99846abf76bedcb0fa
+run_name: Simple Logistic Regression
+run_uuid: 0cecf2f607ab4b99846abf76bedcb0fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747503824684
+status: 3
+tags: []
+user_id: root
