@@ -60,8 +60,6 @@ The result of this training will be a model in MLflow format.
 
 The model generated from the machine learning training will appear on the MLflow Dashboard.
 
-![ss](./ss/5.png)
-
 
 ### 4\. Reading Model Information
 
