@@ -52,26 +52,26 @@ Run the Machine Learning training process. For example, we'll use the `train.py`
 python3 train.py
 ```
 
-[ss](./ss/4.png)
+![ss](./ss/4.png)
 
 The result of this training will be a model in MLflow format.
 
-[ss](./ss/5.png)
+![ss](./ss/5.png)
 
-The model generated from the machine learning training will appear on the **MLflow Dashboard**.
+The model generated from the machine learning training will appear on the MLflow Dashboard.
 
-[ss](./ss/5.png)
+![ss](./ss/5.png)
 
 
 ### 4\. Reading Model Information
 
-On the MLflow Dashboard, you can see the model created by MLflow.
+On the MLflow Dashboard, you can see the model created by MLflow
 
-[ss](./ss/6.png)
+![ss](./ss/6.png)
 
-[ss](./ss/7.png)
+![ss](./ss/7.png)
 
-[ss](./ss/8-2.png)
+![ss](./ss/8-2.png)
 
 
 The most important aspects to monitor from the training results are the two sections highlighted in the images above:
@@ -86,4 +86,7 @@ The most important aspects to monitor from the training results are the two sect
 
 Here's how to run the model resulting from the training:
 
-[ss](./ss/9.png)
+![ss](./ss/9.png)
+
+
+
