@@ -1,14 +1,10 @@
-Absolutely\! I'll translate your text into English, ensuring precise grammar, natural phrasing, and a professional tone, all while keeping the `[ss](./screenshoot/...)` tags exactly where they are.
+# MF-FLow: Build Pipeline MLOps
 
-
-# MF-FLow: Membangun Pipeline MLOps
-
-  * [1. Instalasi Python](https://www.google.com/search?q=%231-instalasi-python)
-  * [2. Instalasi Library Python MLflow](https://www.google.com/search?q=%232-instalasi-library-python-mlflow)
+  * [1. Python Installation](https://www.google.com/search?q=%231-instalasi-python)
+  * [2. Library Python MLflow Installation](https://www.google.com/search?q=%232-instalasi-library-python-mlflow)
   * [3. Training Machine Learning](https://www.google.com/search?q=%233-training-machine-learning)
-  * [4. Membaca Informasi Model](https://www.google.com/search?q=%234-membaca-informasi-model)
-  * [5. Menguji Model](https://www.google.com/search?q=%235-menguji-model)
-  * 
+  * [4. Read Information Model](https://www.google.com/search?q=%234-membaca-informasi-model)
+  * [5. Test Model](https://www.google.com/search?q=%235-menguji-model)
 
 # MF-FLow: Building an MLOps Pipeline
 
@@ -16,7 +12,6 @@ Absolutely\! I'll translate your text into English, ensuring precise grammar, na
 
 **MLflow** is an essential tool for tracking ML experiments (logging parameters, metrics, and artifacts) and managing project reproducibility. This includes **MLflow Tracking** to record your experiment results, and **MLflow Projects** to package your ML code for reproducibility across various environments. It's highly recommended to integrate MLflow into your TensorFlow and LLM workflows.
 
------
 
 ### 1\. Python Installation
 
@@ -28,8 +23,6 @@ python3 -m venv venv
 source /venv/bin/activate
 ```
 
------
-
 ### 2\. MLflow Python Library Installation
 
 Install MLflow:
@@ -38,7 +31,7 @@ Install MLflow:
 pip install mlflow
 ```
 
-![ss](./screenshoot/1.png)
+![ss](./ss/1.png)
 
 MLflow has a User Interface (UI) that you can access at this address after execution:
 
@@ -46,13 +39,10 @@ MLflow has a User Interface (UI) that you can access at this address after execu
 mlflow ui
 ```
 
+![ss](./ss/2.png)
 
-![ss](./screenshoot/2.png)
+![ss](./ss/3.png)
 
-![ss](./screenshoot/3.png)
-
-
------
 
 ### 3\. Machine Learning Training
 
@@ -62,32 +52,26 @@ Run the Machine Learning training process. For example, we'll use the `train.py`
 python3 train.py
 ```
 
-[ss](./screenshoot/4.png)
-
+[ss](./ss/4.png)
 
 The result of this training will be a model in MLflow format.
 
-[ss](./screenshoot/5.png)
-
+[ss](./ss/5.png)
 
 The model generated from the machine learning training will appear on the **MLflow Dashboard**.
 
-[ss](./screenshoot/5.png)
+[ss](./ss/5.png)
 
-
------
 
 ### 4\. Reading Model Information
 
 On the MLflow Dashboard, you can see the model created by MLflow.
 
-[ss](./screenshoot/6.png)
+[ss](./ss/6.png)
 
+[ss](./ss/7.png)
 
-[ss](./screenshoot/7.png)
-
-
-[ss](./screenshoot/8-2.png)
+[ss](./ss/8-2.png)
 
 
 The most important aspects to monitor from the training results are the two sections highlighted in the images above:
@@ -97,10 +81,9 @@ The most important aspects to monitor from the training results are the two sect
 2.  **Accuracy:**
     This is the accuracy value when the trained model is tested with testing data. A value of **0 (0%)** indicates a poor result, while **1 (100%)** indicates a very good result. Generally, an accuracy value of **0.9** is considered very good for tabular models, while for image-based models, **0.8** is already considered very good.
 
------
 
 ### 5\. Testing the Model
 
 Here's how to run the model resulting from the training:
 
-[ss](./screenshoot/9.png)
+[ss](./ss/9.png)
